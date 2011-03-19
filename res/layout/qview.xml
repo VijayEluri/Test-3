@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/RLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ImageButton
+		android:id="@+id/bgButtonLeft" 
+		android:background="@drawable/resources_preguntas_00_0"
+		android:layout_width="100px"
+		android:layout_height="60px"
+		android:scaleType="fitXY"
+        android:layout_marginLeft="10px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10px"
+		/>    
+	<ImageButton
+		android:id="@+id/bgButtonRight" 
+		android:background="@drawable/resources_preguntas_01_0"
+		android:layout_width="100px" 
+		android:layout_height="60px" 
+		android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10px"
+		/>    
+</RelativeLayout>
